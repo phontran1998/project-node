@@ -5,7 +5,7 @@ const connect = async () => {
     await mongoose.connect('mongodb://localhost/SP_Cart', {
       useNewUrlParser: true,
     });
-    console.log('Connect Successfully');
+    console.log('Connect Successfully Demo');
   } catch (error) {
     console.log('Connect Error');
   }
